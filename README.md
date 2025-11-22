@@ -32,14 +32,14 @@
 [http://localhost:5173](http://localhost:5173/)
 
 
-### Deployed Preview (Netlify - Coming Soon)
+### Deployed Preview (Netlify)
 [https://rainwater-convention.netlify.app](https://rainwaterconvention.netlify.app/)
 
 
 
 **Pages:**
-- 🏠 **Home:** http://localhost:5173/
-- ❓ **FAQs:** http://localhost:5173/faqs
+- 🏠 **Home:** https://rainwaterconvention.netlify.app/home
+- ❓ **FAQs:** [http://localhost:5173/faqs](https://rainwaterconvention.netlify.app/)
 - 📝 **Registration:** http://localhost:5173/registration
 - 👨‍💼 **Admin Portal:** http://localhost:5173/admin
 

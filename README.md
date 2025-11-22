@@ -436,7 +436,6 @@ The Admin portal supports full CRUD (Create, Read, Update, Delete) operations:
    - git commit -m "Initial commit"
    - git push origin main
 
-text
 
 2. **Go to Netlify:** https://app.netlify.com
 

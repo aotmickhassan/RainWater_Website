@@ -213,8 +213,6 @@ Visit: `http://localhost:3000/` (or provided URL)
 A professional UI/UX design prototype has been created to showcase the website's visual design and layout.
 
 ### **Canva Prototype Link**
-(To be added: Share your Figma link here)
-https://www.figma.com/design/YOUR_PROJECT_ID/rainwater-convention
 
 
 ### **Prototype Includes:**

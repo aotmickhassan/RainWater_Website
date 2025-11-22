@@ -29,14 +29,13 @@
 **Access the live website here:**
 
 ### Local Development Server
-http://localhost:5173
+[http://localhost:5173](http://localhost:5173/)
 
-text
 
 ### Deployed Preview (Netlify - Coming Soon)
 [https://rainwater-convention.netlify.app](https://rainwaterconvention.netlify.app/)
 
-text
+
 
 **Pages:**
 - 🏠 **Home:** http://localhost:5173/

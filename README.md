@@ -34,7 +34,7 @@ http://localhost:5173
 text
 
 ### Deployed Preview (Netlify - Coming Soon)
-https://rainwater-convention.netlify.app
+[https://rainwater-convention.netlify.app](https://rainwaterconvention.netlify.app/)
 
 text
 

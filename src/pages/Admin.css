@@ -1,0 +1,73 @@
+.admin-container {
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.admin-header {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.admin-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0077be;
+}
+
+.custom-table-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+}
+
+.table-custom-head {
+    background-color: #0077be !important;
+    color: white !important;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e6f2ff !important;
+    transition: background-color 0.2s ease;
+}
+
+.table-text {
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
+
+.btn-action {
+    margin-right: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.btn-action:hover {
+    transform: scale(1.05);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 4rem;
+    color: #888;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 800px;
+}

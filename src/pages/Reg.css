@@ -1,0 +1,105 @@
+.gradient-label {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #005f99, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 0.5rem;
+}
+
+.gradient-label:hover {
+    transform: translateX(5px) scale(1.05);
+    letter-spacing: 1px;
+    text-shadow: 0px 4px 10px rgba(0, 198, 255, 0.3);
+}
+
+.registration-container {
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 2rem;
+}
+
+.registration-card {
+    background: white;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.registration-card:hover {
+    transform: translateY(-5px);
+}
+
+.reg-headline {
+    color: #0077be;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.form-control {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1rem;
+    padding: 0.8rem 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #0077be;
+    box-shadow: 0 0 0 0.2rem rgba(0, 119, 190, 0.15);
+}
+
+.form-control.is-valid {
+    border-color: #198754;
+    background-image: none;
+}
+
+.btn-register {
+    background-color: #0077be;
+    border: none;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+    background-color: #005f99;
+}
+
+.btn-register:disabled {
+    background-color: #a0cce8;
+}
+
+.success-message {
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

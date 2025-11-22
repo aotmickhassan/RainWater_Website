@@ -213,7 +213,7 @@ Visit: `http://localhost:3000/` (or provided URL)
 A professional UI/UX design prototype has been created to showcase the website's visual design and layout.
 
 ### **Canva Prototype Link**
-
+https://rainwaterconvention.my.canva.site/
 
 ### **Prototype Includes:**
 - ✅ Desktop mockups for all 4 pages
